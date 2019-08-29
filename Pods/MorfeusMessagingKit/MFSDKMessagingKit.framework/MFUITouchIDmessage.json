@@ -1,0 +1,38 @@
+{
+  "to": "morfues_user",
+  "from": "morfues_bot",
+  "messageid": "MSG007",
+  "message": {
+    "type": "custom",
+    "card": {
+      "templateType": "TouchIdCardTemplate",
+      "content": [
+        {
+          "element": {
+            "title": {
+              "type": "label",
+              "text": "Please sign in with your Touch ID",
+              "style": {
+                  "textcolor": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "action": "authenticateWithTouchId",
+          "element": {
+            "elementStyle":"touchidInfo",
+                  "payload" : "WfvsghTZ59PlDac",
+                  "action" : "authenticateWithTouchId",
+            "image": {
+              "type": "image",
+              "imagetype": "png",
+              "imageName": "touchid-image",
+              "imageulr": "http://google.com"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

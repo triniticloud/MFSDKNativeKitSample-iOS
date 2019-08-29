@@ -1,0 +1,46 @@
+{
+    "screen": {
+        "id": "InfoScreen",
+        "body": {
+            "style": {
+                "background-image": "bgCat",
+                "background-color": "#00ffff"
+            }
+        },
+        "header": {
+            "style": {
+                "background-image": "abc.png",
+                "background-color": "#A10000"
+            },
+            "leftbuttons": [{
+                            "text": "Home",
+                            "image": "back",
+                            "action": "Close"
+                            
+                            }
+                            
+                            ],
+            "rightbuttons": [{
+                             "text": "",
+                             "image": "",
+                             "action": "Logout"
+                             
+                             }],
+            "headerText": {
+                "text": "HDFC Bank",
+                "style": {
+                    "background-color": "#000000",
+                    "textcolor": "#FFFFFF",
+                    "horizontal-alignment": "left"
+                }
+            },
+            "subheaderText": {
+                "text": "Connecting..",
+                "style": {
+                    "background-color": "#999999",
+                    "textcolor": "#FFFFFF"
+                }
+            }
+        }
+    }
+}

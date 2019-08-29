@@ -1,0 +1,145 @@
+{
+    "screen": {
+        "id": "chat",
+        "body": {
+            "style": {
+                "backgroundImage": "",
+                "backgroundColor": "#F1F1F1"
+            }
+        },
+        "header": {
+            "style": {
+                "backgroundImage": "",
+                "backgroundColor": "#ffffff",
+                "statusBarTheme": "Dark"
+            },
+            "leftButtons": [{
+                            "image": "back-navbar",
+                            "action": "action_back",
+                            }],
+            "rightButtons": [{
+                             "text": "Logout",
+                             "image": "",
+                             "action": "action_logout",
+                             "style": {
+                                "textColor": "#1E4596"
+                             }
+                             }],
+            "headerText": {
+                "style": {
+                    "textColor": "#1E4596",
+                    "horizontalAlignment": "center"
+                }
+            },
+            "subHeaderText": {
+                "text": "Conversational Banking",
+                "style": {
+                    "textColor": "#1E4596"
+                }
+            },
+            "profileImage": {
+                "image": "bot-default",
+            },
+            "statusView": {
+                "icon": {
+                    "image": ""
+                },
+                "title": {
+                    "text": "SECURED LOGIN",
+                    "style": {
+                        "textColor": "#FFFFFF",
+                    }
+                },
+                "subTitle": {
+                    "style": {
+                        "textColor": "#FFFFFF"
+                    }
+                },
+                "style": {
+                    "backgroundColor": "#44CFFF"
+                }
+            }
+        },
+        "footer": {
+            "chatOverlay":"false",
+            "inputView": {
+                "style": {
+                    "backgroundColor": "#FFFFFF"
+                },
+                "textInput": {
+                    "placeholderText":"Text Message",
+                    "style": {
+                        "borderColor": "#1E4596",
+                        "borderWidth": "1",
+                        "hintColor": "#bbbbbb",
+                        "borderShape": "rounded",
+                        "textColor": "#000000",
+                        "backgroundColor": "#F8F5F5"
+                    }
+                },
+                "sendButton": {
+                    "sendImage": "text-chat-normal",
+                    "micImage": "voice-chat-normal"
+                }
+            },
+            "toolBarView": {},
+            "shortCutView": {
+                "style": {
+                    "backgroundColor": "#F1F1F1",
+                    "button": {
+                        "borderColor": "#1E4596",
+                        "borderWidth": "1",
+                        "borderShape": "rounded",
+                        "textColor": "#1E4596",
+                        "backgroundColor": "#F1F1F1",
+                        "selectedBackgroundColor": "#D9E5FF",
+                        "selectedTextColor": "#000000"
+                    }
+                },
+                "content": [{
+                            "text": "Account Summary",
+                            "imageName": "Account_sg",
+                            "action": "action_send",
+                            "payload": "What's my balance",
+                            "isInternationalisation":true
+                            },
+                            {
+                            "text": "Funds Transfer",
+                            "imageName": "FundTransfer_sg",
+                            "action": "action_send",
+                            "payload": "Funds Transfer",
+                            "isInternationalisation":true
+                            },
+                            {
+                            "text": "Recharge",
+                            "imageName": "Recharge_sg",
+                            "action": "action_send",
+                            "payload": "Recharge my mobile",
+                            "isInternationalisation":true
+                            },
+                            {
+                            "text": "Pay Bills",
+                            "imageName": "Cardblock_sg",
+                            "action": "action_send",
+                            "payload": "Pay Bills",
+                            "isInternationalisation":true
+                            },]
+            }
+        },
+        "subView": {},
+        "initView": {
+            "icon": {
+                "image": "loading-empty-logo"
+            },
+            "loadingText": {
+                "text": "Loading...",
+                "style": {
+                    "textColor": "#1E4596"
+                }
+            },
+            "progressView": {
+                "color": "#1E4596"
+            }
+        }
+    }
+}

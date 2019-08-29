@@ -1,0 +1,34 @@
+{
+  "to": "morfues_user",
+  "from": "morfues_bot",
+  "messageid": "MSG003",
+    "message": {
+        "type" : "custom",
+        "card" : {
+            "content" : [
+                         {
+                         "element" : {
+                         "title" : {
+                         "type" : "label",
+                         "text" : "You can raise a request to reverse the late fee through our Phone Banking. Would you like to a initiate call ?"
+                         },
+                         "buttons" : [
+                                      {
+                                      "action" : "call",
+                                      "payload" : "number",
+                                      "radio" : true,
+                                      "type" : "button",
+                                      "allowMultipleClicks" : false,
+                                      "text" : "Yes"
+                                      }
+                                      ]
+                         }
+                         }
+                         ],
+            "tabContent" : [
+            
+            ],
+            "templateType" : "ButtonCardTemplate"
+        },
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "messages": [
+                 {
+                 "to": "morfues_user",
+                 "from": "morfues_bot",
+                 "id": "mid.1501651682440346170377067570",
+                 "messageid": "MSG003",
+                 "message": {
+                 "type": "custom",
+                 "card": {
+                 "templateType": "InfoCardTemplate",
+                 "content": [
+                             {
+                             "element": {
+                             "title": {
+                             "text": "Login",
+                             "type": "label"
+                             },
+                             "subtitle": {
+                             "text": "I need to authenticate you before proceeding",
+                             "type": "label"
+                             },
+                             "buttons": [
+                                         {
+                                         "text": "Authenticate with Touch ID",
+                                         "type": "button",
+                                         "payload":
+                                         {
+                                         "fileUrl":"http://indussit.s3.amazonaws.com/239486239464.jpg",
+                                         "fileName":"239486239464.jpg",
+                                         "fileType":"jpg"
+                                         },
+                                         "action": "authenticateWithTouchId",
+                                         "allowMultipleClicks": true,
+                                         "radio": false
+                                         }
+                                         ]
+                             }
+                             }
+                             ]
+                 }
+                 }
+                 }
+                 ]
+}

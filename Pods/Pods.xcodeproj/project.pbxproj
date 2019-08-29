@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		14AF69B5F62342D1CC8A1E97B043F421 /* MorfeusVoiceKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A3E2BFF0D04FEF5A3A57C3D74EBF9EA8 /* Build configuration list for PBXAggregateTarget "MorfeusVoiceKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MorfeusVoiceKit;
+		};
+		1B692D9FDA8BB43412D33ABA020CDA94 /* MorfeusMessagingKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 75A5B4AA07F43581348DF18C64D57AFD /* Build configuration list for PBXAggregateTarget "MorfeusMessagingKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+				487FB1A049F43C505B478107AA53F253 /* PBXTargetDependency */,
+			);
+			name = MorfeusMessagingKit;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		14B6ACBDB2D4F803C952D80BFE76B165 /* Pods-MorfeusMessagingKitSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC7F98DF13932B1E4D41AC4B959AECE /* Pods-MorfeusMessagingKitSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ED26F9F2164B3FF04AB78B202FDF055 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CBB26434DBCC9437EB34B5740B227865 /* Pods-MorfeusMessagingKitSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E25536B5C6EE76F84B2E750F7A77A7D /* Pods-MorfeusMessagingKitSample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33D606474C1E3311F5A6E1CE080C3FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B692D9FDA8BB43412D33ABA020CDA94;
+			remoteInfo = MorfeusMessagingKit;
+		};
+		41972A606EFEDBB53C242E65BC364F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14AF69B5F62342D1CC8A1E97B043F421;
+			remoteInfo = MorfeusVoiceKit;
+		};
+		93368A51EB137938DFD5D0D6E8A97048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14AF69B5F62342D1CC8A1E97B043F421;
+			remoteInfo = MorfeusVoiceKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AF8A75213BFD6B1FF5845C1097615B6 /* MorfeusMessagingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MorfeusMessagingKit.xcconfig; sourceTree = "<group>"; };
+		2194938F697B73B91264A7075323C206 /* grpc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = grpc.framework; sourceTree = "<group>"; };
+		2AC7F98DF13932B1E4D41AC4B959AECE /* Pods-MorfeusMessagingKitSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MorfeusMessagingKitSample-umbrella.h"; sourceTree = "<group>"; };
+		2E4760BA36BBA250940F7C872F1BC5FA /* Pods-MorfeusMessagingKitSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MorfeusMessagingKitSample-frameworks.sh"; sourceTree = "<group>"; };
+		2E70AE81E3D98D66E76CDB66203F958A /* Pods-MorfeusMessagingKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MorfeusMessagingKitSample.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3371737A08A98B02E2B7922E1A1E75FB /* RxLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxLibrary.framework; sourceTree = "<group>"; };
+		3E25536B5C6EE76F84B2E750F7A77A7D /* Pods-MorfeusMessagingKitSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MorfeusMessagingKitSample-dummy.m"; sourceTree = "<group>"; };
+		5A0C53D738D363EBD62C4E45F779900A /* MorfeusVoiceKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MorfeusVoiceKit.xcconfig; sourceTree = "<group>"; };
+		6FBC01DE749D1D75D4B6B116376B3D2B /* Pods-MorfeusMessagingKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MorfeusMessagingKitSample.debug.xcconfig"; sourceTree = "<group>"; };
+		6FC16C66DE4CA32E43F4A79D3AEF4B37 /* GRPCClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GRPCClient.framework; sourceTree = "<group>"; };
+		75C5F8D956CB0F740EF15E8DCDB84957 /* Pods-MorfeusMessagingKitSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MorfeusMessagingKitSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		81A87976F80E1C3C9C5BFA85A49E5D80 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		834EC976A7C9B6384F2F4A632913D591 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		9090D5117ECB5BC3E44C3A99836833CB /* MFSDKMessagingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MFSDKMessagingKit.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABD8E43C26409BF75FADA0F9E27755DC /* Pods-MorfeusMessagingKitSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MorfeusMessagingKitSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C47C4C66A730D5122253D09B7DA6802A /* Pods_MorfeusMessagingKitSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MorfeusMessagingKitSample.framework; path = "Pods-MorfeusMessagingKitSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1EBA06534380391AEE8CF5E7A369C1 /* googleapis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = googleapis.framework; sourceTree = "<group>"; };
+		CFC3F96C52F63A7B9D892AD42B6E7CB3 /* Pods-MorfeusMessagingKitSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MorfeusMessagingKitSample.modulemap"; sourceTree = "<group>"; };
+		D1FE1B39CD15A193696E1EBC95FEB35B /* MFSDKVoiceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MFSDKVoiceKit.framework; sourceTree = "<group>"; };
+		D4840E00E49D06D940E15DBE248D1784 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
+		DA80729262C8A2E58F8504078A1E50D6 /* ProtoRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ProtoRPC.framework; sourceTree = "<group>"; };
+		FD678F92D3F567C7DBD0AD3000D63466 /* Pods-MorfeusMessagingKitSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MorfeusMessagingKitSample-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23E5E6DAA34392EBA348A0D26C901763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED26F9F2164B3FF04AB78B202FDF055 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2C46301F8CA7B146117B21CE73AC19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9090D5117ECB5BC3E44C3A99836833CB /* MFSDKMessagingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A482A3F50F7463FFE50CDA951F5EDFF /* Pods-MorfeusMessagingKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				CFC3F96C52F63A7B9D892AD42B6E7CB3 /* Pods-MorfeusMessagingKitSample.modulemap */,
+				ABD8E43C26409BF75FADA0F9E27755DC /* Pods-MorfeusMessagingKitSample-acknowledgements.markdown */,
+				75C5F8D956CB0F740EF15E8DCDB84957 /* Pods-MorfeusMessagingKitSample-acknowledgements.plist */,
+				3E25536B5C6EE76F84B2E750F7A77A7D /* Pods-MorfeusMessagingKitSample-dummy.m */,
+				2E4760BA36BBA250940F7C872F1BC5FA /* Pods-MorfeusMessagingKitSample-frameworks.sh */,
+				FD678F92D3F567C7DBD0AD3000D63466 /* Pods-MorfeusMessagingKitSample-Info.plist */,
+				2AC7F98DF13932B1E4D41AC4B959AECE /* Pods-MorfeusMessagingKitSample-umbrella.h */,
+				6FBC01DE749D1D75D4B6B116376B3D2B /* Pods-MorfeusMessagingKitSample.debug.xcconfig */,
+				2E70AE81E3D98D66E76CDB66203F958A /* Pods-MorfeusMessagingKitSample.release.xcconfig */,
+			);
+			name = "Pods-MorfeusMessagingKitSample";
+			path = "Target Support Files/Pods-MorfeusMessagingKitSample";
+			sourceTree = "<group>";
+		};
+		87139B36995C7BD96F461DD01DC8C865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA1EBA06534380391AEE8CF5E7A369C1 /* googleapis.framework */,
+				2194938F697B73B91264A7075323C206 /* grpc.framework */,
+				6FC16C66DE4CA32E43F4A79D3AEF4B37 /* GRPCClient.framework */,
+				D1FE1B39CD15A193696E1EBC95FEB35B /* MFSDKVoiceKit.framework */,
+				81A87976F80E1C3C9C5BFA85A49E5D80 /* nanopb.framework */,
+				D4840E00E49D06D940E15DBE248D1784 /* openssl.framework */,
+				834EC976A7C9B6384F2F4A632913D591 /* Protobuf.framework */,
+				DA80729262C8A2E58F8504078A1E50D6 /* ProtoRPC.framework */,
+				3371737A08A98B02E2B7922E1A1E75FB /* RxLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4D9FD9BA9EE9D772B3ACEAD8718ED20 /* MorfeusMessagingKit */ = {
+			isa = PBXGroup;
+			children = (
+				2D2C46301F8CA7B146117B21CE73AC19 /* Frameworks */,
+				BF36F8ADF96087F9264CD5093A50775E /* Support Files */,
+			);
+			name = MorfeusMessagingKit;
+			path = MorfeusMessagingKit;
+			sourceTree = "<group>";
+		};
+		A9F6631DA638BEEC5EDB6C6ABD5CBAFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A0C53D738D363EBD62C4E45F779900A /* MorfeusVoiceKit.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MorfeusVoiceKit";
+			sourceTree = "<group>";
+		};
+		B013E16C456D11A12B39306DC7BDBBD2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A482A3F50F7463FFE50CDA951F5EDFF /* Pods-MorfeusMessagingKitSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF36F8ADF96087F9264CD5093A50775E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AF8A75213BFD6B1FF5845C1097615B6 /* MorfeusMessagingKit.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MorfeusMessagingKit";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C44E081F5762403B1F29DD721DDFCEBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4D9FD9BA9EE9D772B3ACEAD8718ED20 /* MorfeusMessagingKit */,
+				FD38A91B4F0D7581241A9E5683E90425 /* MorfeusVoiceKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C484733D3FC13E2495980C2E69776142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47C4C66A730D5122253D09B7DA6802A /* Pods_MorfeusMessagingKitSample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C44E081F5762403B1F29DD721DDFCEBF /* Pods */,
+				C484733D3FC13E2495980C2E69776142 /* Products */,
+				B013E16C456D11A12B39306DC7BDBBD2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD38A91B4F0D7581241A9E5683E90425 /* MorfeusVoiceKit */ = {
+			isa = PBXGroup;
+			children = (
+				87139B36995C7BD96F461DD01DC8C865 /* Frameworks */,
+				A9F6631DA638BEEC5EDB6C6ABD5CBAFE /* Support Files */,
+			);
+			name = MorfeusVoiceKit;
+			path = MorfeusVoiceKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		91A593D0DC2A2604A2BEF66970DDDAFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B6ACBDB2D4F803C952D80BFE76B165 /* Pods-MorfeusMessagingKitSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BD4A70BA8EC5956649A26ADF538BA7E3 /* Pods-MorfeusMessagingKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009222849050A5AA15B30849C85C5731 /* Build configuration list for PBXNativeTarget "Pods-MorfeusMessagingKitSample" */;
+			buildPhases = (
+				91A593D0DC2A2604A2BEF66970DDDAFE /* Headers */,
+				A188DB24EFAC00A50DB377B444667DAB /* Sources */,
+				23E5E6DAA34392EBA348A0D26C901763 /* Frameworks */,
+				90200E83717593D58529C47C9F0B1ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D00EE9652B2AE9205FDD46C94ACCCB /* PBXTargetDependency */,
+				394ED306CE04500407D75B9911C16FC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MorfeusMessagingKitSample";
+			productName = "Pods-MorfeusMessagingKitSample";
+			productReference = C47C4C66A730D5122253D09B7DA6802A /* Pods_MorfeusMessagingKitSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C484733D3FC13E2495980C2E69776142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B692D9FDA8BB43412D33ABA020CDA94 /* MorfeusMessagingKit */,
+				14AF69B5F62342D1CC8A1E97B043F421 /* MorfeusVoiceKit */,
+				BD4A70BA8EC5956649A26ADF538BA7E3 /* Pods-MorfeusMessagingKitSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90200E83717593D58529C47C9F0B1ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A188DB24EFAC00A50DB377B444667DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB26434DBCC9437EB34B5740B227865 /* Pods-MorfeusMessagingKitSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		394ED306CE04500407D75B9911C16FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MorfeusVoiceKit;
+			target = 14AF69B5F62342D1CC8A1E97B043F421 /* MorfeusVoiceKit */;
+			targetProxy = 41972A606EFEDBB53C242E65BC364F44 /* PBXContainerItemProxy */;
+		};
+		46D00EE9652B2AE9205FDD46C94ACCCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MorfeusMessagingKit;
+			target = 1B692D9FDA8BB43412D33ABA020CDA94 /* MorfeusMessagingKit */;
+			targetProxy = 33D606474C1E3311F5A6E1CE080C3FA9 /* PBXContainerItemProxy */;
+		};
+		487FB1A049F43C505B478107AA53F253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MorfeusVoiceKit;
+			target = 14AF69B5F62342D1CC8A1E97B043F421 /* MorfeusVoiceKit */;
+			targetProxy = 93368A51EB137938DFD5D0D6E8A97048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48DD3A86940ECC1A5106E47B3B482A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF8A75213BFD6B1FF5845C1097615B6 /* MorfeusMessagingKit.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FFBB78239ED49BF32DF2D36F85648C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0C53D738D363EBD62C4E45F779900A /* MorfeusVoiceKit.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		656D8688A03863264DBCD16B33C57303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E70AE81E3D98D66E76CDB66203F958A /* Pods-MorfeusMessagingKitSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MorfeusMessagingKitSample/Pods-MorfeusMessagingKitSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MorfeusMessagingKitSample/Pods-MorfeusMessagingKitSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		661E7C27566E31E61609D2D2605CB955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FBC01DE749D1D75D4B6B116376B3D2B /* Pods-MorfeusMessagingKitSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MorfeusMessagingKitSample/Pods-MorfeusMessagingKitSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MorfeusMessagingKitSample/Pods-MorfeusMessagingKitSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A7E64B6AC4E02C54391845885A2BE6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF8A75213BFD6B1FF5845C1097615B6 /* MorfeusMessagingKit.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BADEAD4A890CA696B4807C3C389754A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0C53D738D363EBD62C4E45F779900A /* MorfeusVoiceKit.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009222849050A5AA15B30849C85C5731 /* Build configuration list for PBXNativeTarget "Pods-MorfeusMessagingKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661E7C27566E31E61609D2D2605CB955 /* Debug */,
+				656D8688A03863264DBCD16B33C57303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A5B4AA07F43581348DF18C64D57AFD /* Build configuration list for PBXAggregateTarget "MorfeusMessagingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DD3A86940ECC1A5106E47B3B482A40 /* Debug */,
+				A7E64B6AC4E02C54391845885A2BE6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E2BFF0D04FEF5A3A57C3D74EBF9EA8 /* Build configuration list for PBXAggregateTarget "MorfeusVoiceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADEAD4A890CA696B4807C3C389754A1 /* Debug */,
+				4FFBB78239ED49BF32DF2D36F85648C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

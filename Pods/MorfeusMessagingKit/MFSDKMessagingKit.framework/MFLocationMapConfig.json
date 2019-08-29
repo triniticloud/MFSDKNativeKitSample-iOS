@@ -1,0 +1,79 @@
+{
+  "screen": {
+    "id": "LocationScreen",
+    "header": {
+      "style": {
+        "background-image": "abc.png",
+        "background-color": "#023F61",
+        "border-color": "#000000"
+      },
+      "leftbutton": {
+        "label": "back",
+        "image": "ic_arrow_back",
+        "action": "ic_arrow_back"
+      },
+      "headerText": {
+        "text": "Location",
+        "style": {
+          "text-color": "#ffffff",
+          "horizontal-alignment": "left"
+        }
+      }
+    },
+    "body": {
+      "style": {
+        "background-image": "bgCat",
+        "background-color": "#ffffff"
+      },
+      "map": {
+        "type": "MAP_TYPE_NORMAL",
+        "style": {
+          "pin-image": "ic_map_pin"
+        }
+      }
+    },
+    "footer": {
+      "style": {
+        "background-image": "abc.png",
+        "background-color": "#ffffff",
+        "border-color": "#000000"
+      },
+      "sendlocation": {
+        "leftbutton": {
+          "label": "location_btn",
+          "image": "ic_location_btn"
+        },
+        "title": {
+          "text": "Current Location",
+          "style": {
+            "text-color": "#000000",
+            "horizontal-alignment": "left"
+          }
+        },
+        "rightbutton": {
+          "label": "send",
+          "image": "ic_send",
+          "action": "send_location"
+        }
+      },
+      "showlocation": {
+        "leftbutton": {
+          "label": "map_pin",
+          "image": "ic_map_pin"
+        },
+        "title": {
+          "text": "Your Location",
+          "style": {
+            "text-color": "#000000",
+            "horizontal-alignment": "left"
+          }
+        },
+        "rightbutton": {
+          "label": "share",
+          "image": "ic_location_share",
+          "action": "location_share"
+        }
+      }
+    }
+  }
+}

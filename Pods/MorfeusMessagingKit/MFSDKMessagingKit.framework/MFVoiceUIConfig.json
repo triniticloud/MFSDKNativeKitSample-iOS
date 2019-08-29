@@ -1,0 +1,50 @@
+{
+    "screen": {
+        "id": "voice",
+        "body": {
+            "style": {
+                "backgroundImage": "Home_Imge",
+                "backgroundColor": "#F1F1F1"
+            },
+            "micImage":
+            {
+                "inprogress": "voiceMicbutton-InProgress",
+                "idle": "voiceMicbutton-Idle",
+                "active": "voiceMicbutton-Active",
+            },
+            "wave": {
+                "style": {
+                    "color": "#303BCA"
+                }
+            },
+            "hintText": {
+                "text": "What can I help you with?",
+                "style": {
+                    "textColor": "#1E4596"
+                }
+            },
+            "suggestionText": {
+                "text": "Sorry, I didn't quite catch that. Did you mean...",
+                "rightImage": "siri-tick",
+                "style": {
+                    "textColor": "#000000"
+                }
+            },
+            "voiceText": {
+                "inprogress": "In progress",
+                "idle": "Tap to Speak",
+                "active": "Listening",
+                "style": {
+                    "textColor": "#1E4596"
+                }
+            },
+            "backButton": {
+                "image": "voiceClose"
+            },
+            "muteButton": {
+                "unmuteImage": "UnMute",
+                "muteImage": "Mute"
+            }
+        }
+    }
+}

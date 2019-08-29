@@ -1,0 +1,84 @@
+{
+    "screen": {
+        "id": "Login",
+        "body": {
+            "style": {
+                "background-image": "VoiceBg",
+                "background-color": "#fcfcfc",
+                "border-color": "#EAEAEB"
+
+            },
+            "image": {
+                "type": "image",
+                "imagetype": "png",
+                "imageName": "login-header-w",
+                "imageUrl": "http://google.com"
+            },
+            "username": {
+                "placeholderText": "UserName",
+                "style": {
+                    "textcolor": "#999999",
+                    "background-color": "#FFFFFF"
+                }
+            },
+            "password": {
+                "placeholderText": "Password",
+                "style": {
+                    "text-color": "#999999",
+                    "background-color": "#FFFFFF"
+                }
+            },
+            "successMessage":{
+                "text": "Login Success!!!",
+                "style": {
+                    "text-color": "#716F6E",
+                    "background-color": "#fcfcfc"
+                }
+                
+            },
+            "failureMessage":{
+                "text": "Please try again..",
+                "style": {
+                    "text-color": "#B41D0D",
+                    "background-color": "#fcfcfc"
+                }
+                
+            }
+        },
+        "header": {
+            "style": {
+                "imageName": "bot-default",
+                "background-color": "#fcfcfc",
+                "border-color": "#EAEAEB"
+            },
+            "headerText": {
+                "text": "Login",
+                "style": {
+                    "background-color": "#EAEAEB",
+                    "horizontal-alignment": "center"
+                }
+            }
+        },
+        "footer": {
+            "style": {
+                "background-color": "#fcfcfc",
+                "border-color": "#EAEAEB"
+            },
+            "sendbutton": {
+                "text": "Login",
+                "style": {
+                    "text-color": "#999999",
+                    "background-color": "#fcfcfc"
+                }
+            },
+            "cancelbutton": {
+                "text": "Cancel",
+                "style": {
+                    "text-color": "#999999",
+                    "background-color": "#fcfcfc"
+                }
+            }
+            
+        }
+    }
+}

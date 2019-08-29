@@ -1,0 +1,269 @@
+{
+    "cardStyles": {
+        "messagestatus": {
+            "style": {
+                "sending-image": "tick-single-fb",
+                "sent-image": "tick-single-fb",
+                "delivered-image": "tick-single-fb",
+                "read-image": "tick-single-fb",
+                "error-image": "tick-single-fb"
+            }
+        },
+        "messagetime": {
+            "style": {
+                "position": "between_message"
+            }
+        },
+        "messagesender": {
+            "style": {
+                "position": "inside_bubble"
+            }
+        },
+        "bot": {
+            "style": {
+                "image": "bot-default",
+                "position": "bottom",
+                "consecutive":"true"
+            }
+        },
+        "cards": [
+                  {
+                  "cardType": "text",
+                  "incoming": {
+                  "style": {
+                  "background-color": "#F1F0F0",
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": "#000000"
+                  }
+                  }
+                  },
+                  "outgoing": {
+                  "style": {
+                  "background-color": "#1E4596"
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": "#000000"
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "cardType": "image",
+                  "incoming": {
+                  "style": {
+                  "background-color": "#F1F0F0",
+                  "border-color": "#ECECEC"
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": ""
+                  }
+                  }
+                  },
+                  "outgoing": {
+                  "style": {
+                  "background-color": "#FFFFFF",
+                  "border-color": "#004467"
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": ""
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "cardType": "InfoCardTemplate",
+                  "incoming": {
+                  "style": {
+                  "background-color": "#ffffff",
+                  "border-color": "#ffffff"
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": "#212121"
+                  }
+                  },
+                  "subtitle": {
+                  "style": {
+                  "text-color": "#4b4b4b"
+                  }
+                  },
+                  "button": {
+                  "style": {
+                  "border-color": "#1E4596",
+                  "text-color": "#1E4596"
+                  }
+                  }
+                  },
+                  "outgoing": {
+                  "style": {
+                  "background-color": "#FFFFFF"
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": "#000000"
+                  }
+                  },
+                  "subtitle": {
+                  "style": {
+                  "text-color": "#666666"
+                  }
+                  },
+                  "button": {
+                  "style": {
+                  "text-color": "#ff0000"
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "cardType": "ResendOTPCardTemplate",
+                  "incoming": {
+                  "style": {
+                  "background-color": "#ffffff"
+                  },
+                  "button": {
+                  "style": {
+                  "background-color": "#1E4596",
+                  "text-color": "#ffffff"
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "cardType": "ListCardTemplate",
+                  "incoming": {
+                  "style": {
+                  "background-color": "#ffffff"
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": "#212121"
+                  }
+                  },
+                  "subtitle": {
+                  "style": {
+                  "text-color": "#4b4b4b"
+                  }
+                  },
+                  "button": {
+                  "style": {
+                  "border-color": "#1E4596",
+                  "text-color": "#1E4596"
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "cardType": "ButtonCardTemplate",
+                  "incoming": {
+                  "style": {
+                  "background-color": "#F1F0F0",
+                  "border-color": "#ECECEC"
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": "#212121"
+                  }
+                  },
+                  "button": {
+                  "style": {
+                  "border-color": "#1E4596",
+                  "text-color": "#1E4596"
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "cardType": "SimleyCardTemplate",
+                  "showasbig": "no"
+                  },
+                  {
+                  "cardType": "ResendOTPCardTemplate",
+                  "incoming": {
+                  "style": {
+                  "background-color": "#ffffff",
+                  "border-color": "#ECECEC"
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": "#000000"
+                  }
+                  },
+                  "subtitle": {
+                  "style": {
+                  "text-color": "#666666"
+                  }
+                  },
+                  "description": {
+                  "style": {
+                  "text-color": "#999999"
+                  }
+                  },
+                  "button": {
+                  "style": {
+                  "border-color": "#1E4596",
+                  "text-color": "#1E4596"
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "cardType": "LogoutCardTemplate",
+                  "incoming": {
+                  "style": {
+                  "background-color": "#F1F0F0",
+                  "border-color": "#ECECEC"
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": "#000000"
+                  }
+                  },
+                  "subtitle": {
+                  "style": {
+                  "text-color": "#666666"
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "cardType": "webview",
+                  "incoming": {
+                  "style": {
+                  "background-color": "#F1F0F0",
+                  "border-color": "#ECECEC"
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": "#000000"
+                  }
+                  }
+                  }
+                  },
+                  {
+                  "cardType": "location",
+                  "incoming": {
+                  "style": {
+                  "background-color": "#F1F0F0",
+                  "border-color": "#ECECEC"
+                  },
+                  "title": {
+                  "style": {
+                  "text-color": "#000000"
+                  }
+                  },
+                  "subtitle": {
+                  "style": {
+                  "text-color": "#666666"
+                  }
+                  }
+                  }
+                  }
+                  ]
+    }
+}
