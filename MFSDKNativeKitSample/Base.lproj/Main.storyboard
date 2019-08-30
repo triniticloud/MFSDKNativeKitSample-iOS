@@ -34,7 +34,7 @@
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle2" translatesAutoresizingMaskIntoConstraints="NO" id="paX-1U-Id6">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="206.00000000000006"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="206"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="206" id="MVA-LS-v9l"/>
                                                 </constraints>
