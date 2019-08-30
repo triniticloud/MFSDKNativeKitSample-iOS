@@ -168,7 +168,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Credit Union" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G0d-ID-nEC">
-                                                <rect key="frame" x="0.0" y="111" width="414" height="40"/>
+                                                <rect key="frame" x="0.0" y="86" width="414" height="40"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -194,7 +194,7 @@
                                             <constraint firstItem="paX-1U-Id6" firstAttribute="top" secondItem="Oom-1E-nPY" secondAttribute="top" id="I3Y-fP-apZ"/>
                                             <constraint firstItem="6Vv-Hg-p8H" firstAttribute="top" secondItem="Oom-1E-nPY" secondAttribute="top" id="JST-FF-wT6"/>
                                             <constraint firstItem="6Vv-Hg-p8H" firstAttribute="leading" secondItem="Oom-1E-nPY" secondAttribute="leading" id="bYB-E7-QBs"/>
-                                            <constraint firstItem="jFQ-iG-dHv" firstAttribute="top" secondItem="G0d-ID-nEC" secondAttribute="bottom" constant="5" id="frk-LX-XFD"/>
+                                            <constraint firstItem="jFQ-iG-dHv" firstAttribute="top" secondItem="G0d-ID-nEC" secondAttribute="bottom" constant="30" id="frk-LX-XFD"/>
                                             <constraint firstItem="jFQ-iG-dHv" firstAttribute="centerY" secondItem="paX-1U-Id6" secondAttribute="bottom" id="izI-yg-J0n"/>
                                             <constraint firstItem="L00-op-ddb" firstAttribute="leading" secondItem="Oom-1E-nPY" secondAttribute="leading" id="jaK-TD-3KB"/>
                                             <constraint firstAttribute="trailing" secondItem="paX-1U-Id6" secondAttribute="trailing" id="mCs-Ox-prQ"/>
