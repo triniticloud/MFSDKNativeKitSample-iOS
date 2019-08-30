@@ -10,7 +10,13 @@
 #import <MFSDKMessagingKit/MFSDKMessagingKit.h>
 
 @interface ViewController ()<MFSDKMessagingDelegate>
-
+@property (weak, nonatomic) IBOutlet UIButton *askMeButton;
+- (IBAction)settingButtonAction:(id)sender;
+@property (nonatomic, strong)NSArray *pickerData;
+@property (weak, nonatomic) IBOutlet UIButton *settingButton;
+@property (nonatomic, strong)NSArray *pickerDataTitle;
+@property (nonatomic, strong)NSString *languageTitle;
+@property (nonatomic, strong)NSString *languageCode;
 @end
 
 @implementation ViewController
@@ -18,6 +24,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //    [activeAiButton setBackgroundImage:[UIImage imageNamed:@"chat_login"] forState:UIControlStateNormal];
+    if (@available(iOS 8.2, *)) {
+        [self.askMeButton.titleLabel setFont:[UIFont systemFontOfSize:14 weight:UIFontWeightBold]];
+    } else {
+        // Fallback on earlier versions
+    }if (@available(iOS 8.2, *)) {
+        [self.askMeButton.titleLabel setFont:[UIFont systemFontOfSize:14 weight:UIFontWeightBold]];
+    } else {
+        // Fallback on earlier versions
+    }
 }
 
 // Once the button is clicked, show the message screen
