@@ -32,13 +32,13 @@
     [[MFSDKMessagingManager sharedInstance] registerTemplateMapping:templateMapping forCardTemplate:@"fundTransferSuccessHtml"];
     
     //Bot intialisation
-    MFSDKProperties *params = [[MFSDKProperties alloc] initWithDomain:@"<BOT_URL>"];
-    [params addBot:@"<BOT_ID>" botName:@"<BOT_NAME>"];
+    MFSDKProperties *params = [[MFSDKProperties alloc] initWithDomain:@"https://flow-qa.active.ai"];
+    [params addBot:@"171i10456640077" botName:@"Active Bank"];
     params.messagingDelegate = self;
     [[MFSDKMessagingManager sharedInstance] initWithProperties:params];
     
     MFSDKSessionProperties *sessionProperties = [[MFSDKSessionProperties alloc]init];
     sessionProperties.language = @"en";
-    [[MFSDKMessagingManager sharedInstance] showScreenWithBotID:@"<BOT_ID>" fromViewController:self withSessionProperties:sessionProperties];
+    [[MFSDKMessagingManager sharedInstance] showScreenWithBotID:@"171i10456640077" fromViewController:self withSessionProperties:sessionProperties];
 }
 @end
