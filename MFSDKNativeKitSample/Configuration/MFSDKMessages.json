@@ -1,0 +1,214 @@
+{
+    "conversation": {
+        "from": "100w53412209293",
+        "requestId": "4a9227f7-2d03-4f5f-bd12-1624ef9595f8",
+        "to": "060561406114627"
+    },
+    "debugData": {},
+    "inDeveloperMode": true,
+    "initData": {},
+    "inputProperties": {
+        "keyboardState": "none"
+    },
+    "messages": [
+                 {
+                 "id": "mid.1536912494734780262031996017",
+                 "message": {
+                 "payload": {},
+                 "speechData": "You have spent INR 27,291.00 from 14 Sep 2017 to 14 Sep 2018",
+                 "text": "You have spent INR 27,291.00 from 14 Sep 2017 to 14 Sep 2018",
+                 "type": "text"
+                 },
+                 "response": null
+                 },
+                 {
+                 "id": "mid.1536912494767833985808604005",
+                 "message": {
+                 "card": {
+                 "content": [
+                             {
+                             "element": {
+                             "image": {
+                             "imageName": "creditCardList.png",
+                             "imageUrl": "https://s3.ap-south-1.amazonaws.com/activeai/creditCardList.png",
+                             "type": "image"
+                             },
+                             "subtitle": {
+                             "text": "Rs 11,907.00",
+                             "type": "label"
+                             },
+                             "title": {
+                             "text": "Transfer - 44.00%",
+                             "type": "label"
+                             }
+                             }
+                             },
+                             {
+                             "element": {
+                             "image": {
+                             "imageName": "creditCardList.png",
+                             "imageUrl": "https://s3.ap-south-1.amazonaws.com/activeai/creditCardList.png",
+                             "type": "image"
+                             },
+                             "subtitle": {
+                             "text": "Rs 10,360.00",
+                             "type": "label"
+                             },
+                             "title": {
+                             "text": "BillPay - 38.00%",
+                             "type": "label"
+                             }
+                             }
+                             },
+                             {
+                             "element": {
+                             "image": {
+                             "imageName": "creditCardList.png",
+                             "imageUrl": "https://s3.ap-south-1.amazonaws.com/activeai/creditCardList.png",
+                             "type": "image"
+                             },
+                             "subtitle": {
+                             "text": "Rs 2,600.00",
+                             "type": "label"
+                             },
+                             "title": {
+                             "text": "Movies - 10.00%",
+                             "type": "label"
+                             }
+                             }
+                             },
+                             {
+                             "element": {
+                             "image": {
+                             "imageName": "creditCardList.png",
+                             "imageUrl": "https://s3.ap-south-1.amazonaws.com/activeai/creditCardList.png",
+                             "type": "image"
+                             },
+                             "subtitle": {
+                             "text": "Rs 1,990.00",
+                             "type": "label"
+                             },
+                             "title": {
+                             "text": "Rent - 8.00%",
+                             "type": "label"
+                             }
+                             }
+                             },
+                             {
+                             "element": {
+                             "image": {
+                             "imageName": "creditCardList.png",
+                             "imageUrl": "https://s3.ap-south-1.amazonaws.com/activeai/creditCardList.png",
+                             "type": "image"
+                             },
+                             "subtitle": {
+                             "text": "Rs 410.00",
+                             "type": "label"
+                             },
+                             "title": {
+                             "text": "Restaurants - 2.00%",
+                             "type": "label"
+                             }
+                             }
+                             },
+                             {
+                             "element": {
+                             "image": {
+                             "imageName": "creditCardList.png",
+                             "imageUrl": "https://s3.ap-south-1.amazonaws.com/activeai/creditCardList.png",
+                             "type": "image"
+                             },
+                             "subtitle": {
+                             "text": "Rs 14.00",
+                             "type": "label"
+                             },
+                             "title": {
+                             "text": "Groceries - 1.00%",
+                             "type": "label"
+                             }
+                             }
+                             },
+                             {
+                             "element": {
+                             "image": {
+                             "imageName": "creditCardList.png",
+                             "imageUrl": "https://s3.ap-south-1.amazonaws.com/activeai/creditCardList.png",
+                             "type": "image"
+                             },
+                             "subtitle": {
+                             "text": "Rs 10.00",
+                             "type": "label"
+                             },
+                             "title": {
+                             "text": "Online - 1.00%",
+                             "type": "label"
+                             }
+                             }
+                             }
+                             ],
+                 "elementStyle": "compact",
+                 "header": "Your Spend Breakup...",
+                 "tabContent": [],
+                 "templateType": "ListCardTemplate"
+                 },
+                 "payload": {
+                 "channelType": "W",
+                 "content": [
+                             {
+                             "text": "Rent",
+                             "value": "12,090.00",
+                             "percentage": "86.00",
+                             "image": "https://s3.ap-south-1.amazonaws.com/activeai/spendCategories/household.png",
+                             "color": "#2e3092"
+                             },
+                             {
+                             "text": "Groceries",
+                             "value": "1,400.00",
+                             "percentage": "10.00",
+                             "image": "https://s3.ap-south-1.amazonaws.com/activeai/creditCardList.png",
+                             "color": "#2eab92"
+                             },
+                             {
+                             "text": "Movies",
+                             "value": "600.00",
+                             "percentage": "5.00",
+                             "image": "https://s3.ap-south-1.amazonaws.com/activeai/spendCategories/movies.png",
+                             "color": "#ec1d24"
+                             }
+                             ],
+                 "currency": "INR",
+                 "fromDate": "14 Sep 2017",
+                 "messageText": "You have spent INR 27,291.00 from 14 Sep 2017 to 14 Sep 2018",
+                 "title": "Your Spending...",
+                 "toDate": "14 Sep 2018",
+                 "totalAmount": "27,291.00"
+                 },
+                 "speechData": "",
+                 "templateName": "PieTemplate",
+                 "type": "customTemplate"
+                 },
+                 "response": null
+                 },
+                 {
+                 "id": "mid.1536912493983955035660988471",
+                 "message": {
+                 "payload": {},
+                 "speechData": "Your last login was on 09/14/2018 16:03:23",
+                 "text": "Your last login was on 09/14/2018 16:03:23",
+                 "type": "text"
+                 },
+                 "response": null
+                 },
+                 {
+                 "id": "mid.1536912493970724290170172341",
+                 "message": {
+                 "payload": {},
+                 "speechData": "You have been logged in successfully",
+                 "text": "You have been logged in successfully",
+                 "type": "text"
+                 },
+                 "response": null
+                 }
+                 ],
+    "quick_replies": []
+}

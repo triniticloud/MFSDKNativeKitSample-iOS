@@ -1,0 +1,42 @@
+{
+    "fundTransfer": [
+                     "fund transfer",
+                     "send money"
+                     ],
+    "general": [
+                "previous",
+                "next",
+                "yes",
+                "no",
+                "confirm",
+                "cancel",
+                "cancel the request",
+                "pay",
+                "How about master card",
+                "How about visa card",
+                "Pay",
+                "card",
+                "Master Card",
+                "Visa Card",
+                "Visa",
+                "Master",
+                "Categorise it",
+                "Categorise"
+                ],
+    "names": [
+              "Electricity Bill",
+              "Telephone Bill",
+              "Water Bill"
+              ],
+    "spending": [
+                 "How much did i spend this month on my visa card",
+                 "How much did i spend this month on my master card",
+                 "Am planning to go to Bali ,how much can I spend there",
+                 "pay the outstanding amount of visa card and show account balance",
+                 "pay the outstanding amount of master card and show account balance",
+                 "Is there any late fee on visa card",
+                 "Is there any late fee on master card",
+                 "Not again,how can i reverse it",
+                 "how can i reverse it"
+                 ]
+}

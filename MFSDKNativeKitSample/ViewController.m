@@ -32,7 +32,16 @@
 // Once the button is clicked, show the message screen
 -(IBAction)startChat:(id)sender
 {
-    //external card added
+    // overRiding basic inbuilt card example
+    MFCardTemplateMapping *templateMappingBasic = [MFCardTemplateMapping new];
+    templateMappingBasic.incomingCellNibName = @"MFTextCardCell_IN";
+    templateMappingBasic.outgoingCellNibName = @"MFTextCardCell_OUT";
+    templateMappingBasic.cellNibName = @"MFTextCardCell_Cus";
+    templateMappingBasic.cellModelName = @"MFTextCardModel_Cus";
+    templateMappingBasic.isListCard = NO;
+    [[MFSDKMessagingManager sharedInstance] registerTemplateMapping:templateMappingBasic forCardTemplate:@"text"];
+
+    //external card added example
     MFCardTemplateMapping *templateMapping = [MFCardTemplateMapping new];
     templateMapping.incomingCellNibName = @"MFFundTransferSuccessHtmlCell_IN";
     templateMapping.cellNibName = @"MFFundTransferSuccessHtmlCell";
@@ -44,10 +53,18 @@
     MFSDKProperties *params = [[MFSDKProperties alloc] initWithDomain:@"https://flow-qa.active.ai"];
     [params addBot:@"171i10456640077" botName:@"Active Bank"];
     params.messagingDelegate = self;
+    params.isSupportMultiLanguage = YES;
+    //speech api key
+    params.googleVoiceKey = @"AIzaSyAJ32rx6O208qigvgLXJrxfLd1AvkuwqHk";
+    params.messagingDelegate = self;
+    params.enableAutoSuggestion = YES;
+    params.enableBackSpaceSuggestion = YES;
     [[MFSDKMessagingManager sharedInstance] initWithProperties:params];
-    
     MFSDKSessionProperties *sessionProperties = [[MFSDKSessionProperties alloc]init];
-    sessionProperties.language = @"en";
+    //set screen type both message and voice
+    sessionProperties.screenToDisplay = MFScreenMessageVoice;
+
+    sessionProperties.language = @"th-TH";
     [[MFSDKMessagingManager sharedInstance] showScreenWithBotID:@"171i10456640077" fromViewController:self withSessionProperties:sessionProperties];
 }
 @end

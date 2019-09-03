@@ -1,0 +1,6 @@
+framework module Pods_MFSDKNativeKitSample {
+  umbrella header "Pods-MFSDKNativeKitSample-umbrella.h"
+
+  export *
+  module * { export * }
+}
